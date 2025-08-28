@@ -8,8 +8,6 @@ dependencies = [
     "dj-database-url>=3.0.1",
     "django>=5.2.5",
     "django-bootstrap5>=25.2",
-    "gettext",
-    "gnu",
     "gunicorn>=23.0.0",
     "python-dotenv>=1.1.1",
     "whitenoise>=6.9.0",
