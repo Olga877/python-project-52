@@ -18,3 +18,6 @@ run:
 
 lint:
 	uv run ruff check
+
+translate:
+	uv run django-admin makemessages -l ru --ignore=".venv" uv run python manage.py compilemessages --ignore=".venv"
